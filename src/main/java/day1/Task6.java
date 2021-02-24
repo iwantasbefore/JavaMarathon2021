@@ -7,7 +7,6 @@ public class Task6 {
 
             System.out.println(i + "x" + k + "=" + (k * i));
         }
-        System.out.println("");
     }
 
 
