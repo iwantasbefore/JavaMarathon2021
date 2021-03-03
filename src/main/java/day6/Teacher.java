@@ -8,19 +8,23 @@ public class Teacher {
         this.name = name;
         this.lesson = lesson;
     }
+
     public String getName() {
         return name;
     }
+
     public void setName(String name) {
         this.name = name;
     }
+
     public String getLesson() {
         return lesson;
     }
+
     public void setLesson(String lesson) {
         this.lesson = lesson;
     }
-    
+
     public void evaluate(Student student) {
         int a = 2;
         int b = 4;
@@ -37,9 +41,9 @@ public class Teacher {
             case 4:
                 evaluation = "хорошо";
                 break;
+            default:
             case 5:
                 evaluation = "отлично";
-                break;
         }
         System.out.println(this.name + " оценил студента с именем " + student.getName() + " по предмету " + this.lesson + " на оценку " + evaluation);
 

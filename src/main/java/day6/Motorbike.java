@@ -11,8 +11,7 @@ public class Motorbike {
     }
 
     public int yearDifference(int yearInput) {
-        int years = year-yearInput;
-        return years;
+        return Math.abs(yearInput - year);
     }
 
     public Motorbike(int year, String color, String model) {
